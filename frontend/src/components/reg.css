@@ -1,0 +1,23 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container3{
+    background-image: url("https://www.shutterstock.com/image-photo/womens-hands-keyboarding-on-laptop-260nw-1909553650.jpg");
+    /* width: 100%; */
+    
+    background-size: cover;
+    box-shadow: inset 0 0 0 2000px rgba(0,0,0,0.5);
+    margin-top: -7%;
+    color: #fff;
+    padding: 100px 100px;
+}
+.form-control{
+    width: 45%;
+    height: 30px;
+    
+}
+
+

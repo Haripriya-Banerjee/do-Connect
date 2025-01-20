@@ -1,0 +1,46 @@
+.container1{
+    width: 100%;
+    min-height: 80vh;
+    /* padding: 2%; */
+    background-image:linear-gradient(rgba(23, 30, 67, 0.9),rgba(19, 27, 75, 0.9)),url("https://lkcfes.utar.edu.my/wp-content/uploads/2023/07/PH.jpg") ;
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  .d-flex input{
+    flex: 2;
+    border: 10;
+    border-color: black;
+    border-radius: 2px;
+    outline: none;
+    padding: 24px 20px;
+    font-size: 20px;
+    color: #cac7ff;
+    
+  }
+
+  ::placeholder{
+    color: #cac7ff;
+  }
+  .d-flex button{
+    /* border: 0;
+    border-radius: 1%;
+    width: 60px;
+    height: 60px; */
+    background: #cbb11b;
+    
+  }
+  .container1{
+    /* color: #cac7ff; */
+    flex: 10px;
+    /* border: 10;
+    border-color: black;
+    border-radius: 2px; */
+    outline: none;
+    padding: 80px 80px;
+    font-size: 20px;
+    color: #cac7ff;
+  }
+
