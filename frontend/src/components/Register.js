@@ -16,7 +16,7 @@ const Register = () => {
         const response = await fetch(`${backendUrl}/auth/register`, {
             credentials: 'include',
             method: 'POST',
-            headers: {...headers, token:sessionInfo.token, email:sessionInfo.email, role:sessionInfo.role},
+            headers: {...headers, email:accountData.email, role:role},
             body: JSON.stringify(accountData)
         });
         const result = await response.json();
